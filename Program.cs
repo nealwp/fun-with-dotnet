@@ -36,3 +36,17 @@ else
 {
     Console.WriteLine($"seconds {seconds} is odd");
 }
+
+string[] names = {"hello", "world"};
+
+foreach (string n in names)
+{
+    Console.WriteLine(n);
+}
+
+var words = new string[] {"give", "a", "little", "bit"};
+
+foreach (var word in words)
+{
+    Console.WriteLine(word);
+}

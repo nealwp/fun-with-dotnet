@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Hello, World!");
+
+string name = "old greg";
+Console.WriteLine(name);
+
+name = "new greg";
+Console.WriteLine(name);
+
+Console.WriteLine("Hello " + name);
+Console.WriteLine($"Hello interpolated {name}");
